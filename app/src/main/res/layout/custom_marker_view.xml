@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="115dp"
+    android:layout_height="70dp"
+    android:backgroundTint="#FFEBA8"
+    android:id="@+id/markerParentRelLay"
+    android:background="@drawable/marker"
+    tools:ignore="Overdraw">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginRight="5dp"
+
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/titleTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14dp"
+            android:textColor="#363636"
+
+            android:ellipsize="end"
+            android:singleLine="true"
+            tools:ignore="SmallSp,SpUsage" />
+        <TextView
+            android:id="@+id/dateTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="on 23-01-2020"
+            android:textSize="12dp"
+            android:textColor="#363636"
+            android:ellipsize="end"
+            android:singleLine="true"
+            tools:ignore="HardcodedText,SpUsage" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
