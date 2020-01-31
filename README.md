@@ -1,4 +1,4 @@
-# MutlipleLineChartsGraph
+# Mutliple Line Charts Graph
 
 Creating mulitple Line chart graph Using mp chart library.
 1)  Added custom marker to display value of intersection point in graph(MyMarkerView.java).
