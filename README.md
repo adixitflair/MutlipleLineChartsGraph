@@ -1,12 +1,17 @@
 # Mutliple Line Charts Graph
 
 Quick Start 📈
+
 Add the library to your Android project, then check out the examples below!
+
+
 
 Gradle Setup
 repositories {
     maven { url 'https://jitpack.io' }
 }
+
+
 
 dependencies {
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
