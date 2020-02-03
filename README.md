@@ -16,7 +16,12 @@ repositories {
 dependencies {
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 }
+
+
 Maven Setup
+
+
+
 <!-- <repositories> section of pom.xml -->
 <repository>
     <id>jitpack.io</id>
